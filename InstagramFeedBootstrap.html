@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ffceea94d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <!-- Nav Bar -->
+        <div class="row bg-light d-flex">
+           
+                <nav class="navbar navbar-light bg-light flex-grow-1 ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                      </a>
+                    </div>
+                  </nav>
+               
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Create a new post
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></div>
+            <span class="border p-1"> <i class="fa-solid fa-camera"></i></span>
+            <span class="border p-1 "> <i class="fa-solid fa-location-pin"></i></i></span>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+<!-- Dropdown -->
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gear"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    </ul>
+                  </div>
+              
+            
+     
+        
+        </div>
+
+ <!-- Barra de Seleccion de Vista -->
+<div class="row d-flex justify-content-center ">
+    
+
+  <ul class="nav nav-pills" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation ">
+      <buttom class="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"  ><i class="fa-solid fa-table-cells-large"></i></a>
+    </li>
+    <li class="nav-item"  role="presentation">
+      <buttom class="nav-link "  id="post-tab" data-bs-toggle="tab" data-bs-target="#post" type="button" role="tab" aria-controls="post" aria-selected="false" ><i class="fa-solid fa-square"></i></a>
+    </li>
+  </ul>
+
+</div>
+
+<div class="tab-content" id="myTabContent">
+
+
+
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+
+ <!-- Body del Feed  -->
+
+ 
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+   
+    <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+      <div class="col-4 p-2 ">
+        <div class="card">
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+   <!-- Body del Feed -->    
+
+   </div>
+
+
+   </div>
+
+
+    
+<div class="tab-pane fade" id="post" role="tabpanel" aria-labelledby="post-tab">
+
+
+ <!-- Body del Home  -->
+
+ <div class="row d-flex justify-content-center p-4 bg-light">
+
+
+  <div class="card" style="width: 40rem;">
+
+      <div class="row d-flex align-middle ">
+          <div class="col-10 flex-grow-1 pt-1">
+          <div class="card-header bg-white">
+              <p> First Post  </p>
+             </div>
+          </div>
+
+      <div class="col-2 pt-3 d-flex justify-content-end"><p class="text-muted">12/12 &nbsp </p></div>
+      </div>
+     
+
+      <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">23 Likes</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+        <div class="row g-3 align-items-center">
+
+         
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label"><i class="fa-solid fa-heart"></i></label>
+          </div>
+          <div class="col-auto flex-grow-1">
+            <input class="border-0" type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Comment..."> 
+          </div>
+
+          <div class="col-auto">
+              <label> <i class="fa-solid fa-ellipsis-vertical"></i></label>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  
+
+    <div class="row d-flex justify-content-center p-4 bg-light">
+
+
+      <div class="card" style="width: 40rem;">
+  
+          <div class="row d-flex align-middle ">
+              <div class="col-10 flex-grow-1 pt-1">
+              <div class="card-header bg-white">
+                  <p> Second Post  </p>
+                 </div>
+              </div>
+  
+          <div class="col-2 pt-3  d-flex justify-content-end "><p class="text-muted">12/12 &nbsp </p></div>
+          </div>
+         
+  
+          <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">23 Likes</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+            <div class="row g-3 align-items-center">
+  
+             
+              <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label"><i class="fa-solid fa-heart"></i></label>
+              </div>
+              <div class="col-auto flex-grow-1">
+                <input class="border-0" type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Comment..."> 
+              </div>
+  
+              <div class="col-auto">
+                  <label> <i class="fa-solid fa-ellipsis-vertical"></i></label>
+                </div>
+  
+              </div>
+            </div>
+            
+          </div>
+  
+  
+  
+          <div class="row d-flex justify-content-center p-4 bg-light">
+
+
+            <div class="card" style="width: 40rem;">
+        
+                <div class="row d-flex align-middle ">
+                    <div class="col-10 flex-grow-1 pt-1">
+                    <div class="card-header bg-white">
+                        <p> Third Post  </p>
+                       </div>
+                    </div>
+        
+                <div class="col-2 pt-3  d-flex justify-content-end  "> <p class="text-muted">12/12 &nbsp </p></div>
+                </div>
+               
+        
+                <img src="https://picsum.photos/600/600" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">23 Likes</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        
+                  <div class="row g-3 align-items-center">
+        
+                   
+                    <div class="col-auto">
+                      <label for="inputPassword6" class="col-form-label"><i class="fa-solid fa-heart"></i></label>
+                    </div>
+                    <div class="col-auto flex-grow-1">
+                      <input class="border-0" type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Comment..."> 
+                    </div>
+        
+                    <div class="col-auto">
+                        <label> <i class="fa-solid fa-ellipsis-vertical"></i></label>
+                      </div>
+        
+                    </div>
+                  </div>
+                  
+                </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                
+              </div>
+  
+  
+  
+  
+  
+          
+        </div>
+
+
+<!-- Body del Home  -->
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+    </div>
+
+  <!-- Scripts de JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>

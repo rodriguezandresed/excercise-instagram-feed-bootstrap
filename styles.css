@@ -1,0 +1,13 @@
+.nav-pills .nav-item .nav-link.active, .nav-pills .show>.nav-link {
+color:white;
+background-color:gray;
+
+}
+
+.nav-pills .nav-item .nav-link {
+
+    color: gray;
+    background-color:white;
+    
+
+}
